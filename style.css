@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+canvas {
+    display: block;
+}
+#info-panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+#controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+#controls button {
+    margin: 5px;
+    padding: 5px 10px;
+    background: #333;
+    color: white;
+    border: 1px solid #666;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#controls button:hover {
+    background: #555;
+}
+.planet-label {
+    color: white;
+    font-size: 12px;
+    pointer-events: none;
+}
+h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}

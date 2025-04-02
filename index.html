@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Solar System Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="info-panel">
+        <h3>Solar System Simulator</h3>
+        <p>Click on a planet to view information about it.</p>
+        <p>Zoom: Mouse wheel</p>
+        <p>Rotate: Click and drag</p>
+        <p>Pan: left-click and drag</p>
+    </div>
+    
+    <div id="controls">
+        <button id="toggle-orbit">Pause Orbits</button>
+        <button id="toggle-labels">Hide Labels</button>
+        <button id="reset-view">Reset View</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
